@@ -1,0 +1,119 @@
+body {
+    margin: 20px;
+    position: relative;
+    transition: background-color 0.3s, color 0.3s;
+    width: 430px;
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav .material-icons:hover {
+    color: #007bff;
+    /* Color change on hover */
+}
+
+#title {
+    font-size: 16px;
+    font-weight: bold;
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+.nav-icon {
+    font-size: 24px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#hadith-text {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#details p {
+    margin: 5px 0;
+}
+
+#generate-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+}
+
+#generate-button:hover {
+    background-color: #0056b3;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+header.dark-mode {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+
+.card.dark-mode {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+
+#generate-button.dark-mode {
+    background-color: #333;
+    color: white;
+}
+
+#generate-button.dark-mode:hover {
+    background-color: #555;
+}
+
+#hadith-card {
+    margin-top: 15px;
+}
+
+.socialIcons {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    font-size: 24px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+}
+
+.socialIcons a:hover {
+    color: #007bff;
+}
+
+#copy-icon {
+    cursor: pointer;
+    position: fixed;
+    bottom: 28px;
+    right: 155px;
+}
