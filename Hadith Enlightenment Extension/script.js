@@ -78,7 +78,7 @@ function adjustPopupHeight() {
     60; // 60 for padding and margins
   document.body.style.height = `${totalHeight}px`;
 }
-
+// function to shift between dark and light mode
 function toggleTheme() {
   const themeIcon = document.getElementById("theme-icon");
   const elements = document.querySelectorAll(
@@ -131,7 +131,7 @@ async function fetchRandomHadith() {
   }
 }
 
-// Initial call to apply random gradient and fetch and display a random Hadith
+// Initial call to fetch and display a random Hadith
 fetchRandomHadith();
 
 // Function to copy Hadith text to clipboard
